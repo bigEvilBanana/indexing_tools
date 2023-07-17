@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "indexing-tools"
+version = "0.1.0"
+description = ""
+authors = ["https://t.me/seo_code"]
+readme = "README.md"
+packages = [{include = "indexing_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+loguru = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
