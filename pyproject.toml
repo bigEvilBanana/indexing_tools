@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "indexing-tools"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["https://t.me/seo_code"]
 readme = "README.md"
@@ -10,6 +10,7 @@ packages = [{include = "indexing_tools"}]
 python = "^3.10"
 requests = "^2.31.0"
 loguru = "^0.7.0"
+oauth2client = "^4.1.3"
 
 
 [build-system]
